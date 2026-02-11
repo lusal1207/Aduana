@@ -1,0 +1,100 @@
+
+
+#menu ul{
+ list-style: none;
+}
+
+#menu ul li{
+ float: left;
+ cursor: pointer;
+ width: 100px;
+ text-align: center;
+ height: 20px;
+}
+
+#menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover {
+    background-color: blue;
+    /*font-size: larger; */
+    color: aliceblue;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
+#menu ul li:hover > ul li {
+    float:none;
+    
+}
+
+#menu ul li ul li button{
+    background-color: red;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+    ;
+}
+
+#menu ul li ul li button:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#menu ul li button{
+    background-color: red;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+}
+
+#menu ul li button:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.btn-guardar {
+     background-color: rgb(18, 158, 41);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 25px;
+}
+
+.titulo{
+    font-size: xx-large;
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+    table {
+        border: 1px solid black; 
+        width: 100%; 
+        font-family: Arial, sans-serif; 
+        margin-bottom: 20px;     }
+    
+    th, td {
+        border: 1px solid rgba(221, 221, 221, 1); 
+        padding: 12px; 
+        text-align: left; 
+    }
+    th {
+        background-color: rgba(242, 242, 242, 1); 
+        color: #333;
+    }
+    tbody tr:hover {
+        background-color: rgba(241, 241, 241, 1);
+        
+    }
